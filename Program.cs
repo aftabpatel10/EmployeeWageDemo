@@ -11,6 +11,16 @@ namespace EmployeeWageDemo
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to EmployeeWage Conmputation");
+            //UC1
+            int employeePresent = 1;
+            Random r = new Random();
+            int empployeeIinput = r.Next(0, 2);
+
+            if (employeePresent == employeeInput)
+                Console.WriteLine("Employee is Present");
+            else
+                Console.WriteLine("Employee is Absent");
+           
             Console.ReadLine();
         }
     }
