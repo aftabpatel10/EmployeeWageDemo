@@ -18,7 +18,7 @@ namespace EmployeeWageDemo
             int empHrs = 0;
 
             Random r = new Random();
-            int empployeeIinput = r.Next(0, 2);
+            int employeeInput = r.Next(0, 2);
 
             if (employeePresent == employeeInput)
             {
